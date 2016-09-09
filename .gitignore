@@ -1,0 +1,4 @@
+# Ignore folder vendor and test.
+/tests
+/vendor
+composer.lock

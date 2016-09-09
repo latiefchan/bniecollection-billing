@@ -1,0 +1,29 @@
+{
+    "name": "latiefchan/bniecollection-billing",
+    "description": "Package for manage billing BNI Ecollection",
+    "license": "MIT",
+    "keywords": ["Billing", "BNI Ecollection", "BNI", "Virtual Account"],
+    "authors": [{
+        "name": "Syaifudin Latief",
+        "email": "latiefchan52@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "respect/validation": "^1.1.4",
+        "rmccue/requests": "^1.6.1",
+        "geerlingguy/ping": "^1.0",
+        "vlucas/phpdotenv": "^2.3",
+        "rych/random": "^0.1.0",
+        "nesbot/carbon": "^1.21"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "ext-curl": "*",
+        "symfony/var-dumper": "3.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LatiefChan\\Bniecollection\\Billing\\": "src/"
+        }
+    }
+}
