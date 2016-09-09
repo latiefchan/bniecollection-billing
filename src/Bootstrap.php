@@ -15,6 +15,5 @@ if (file_exists(dirname(__FILE__).'/.env') === false) {
     throw new Exception(json_encode(['status' => false, 'message' => 'File .env not exist']));
 }
 
-
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
