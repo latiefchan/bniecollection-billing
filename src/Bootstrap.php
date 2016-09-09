@@ -1,6 +1,5 @@
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
 date_default_timezone_set('Asia/Jakarta');
 
 if (version_compare(phpversion(), '5.4.0', '<')) {
